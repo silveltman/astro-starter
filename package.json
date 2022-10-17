@@ -1,0 +1,29 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.10.0",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/svelte": "^1.0.2",
+    "@astrojs/tailwind": "^2.1.0",
+    "@astrojs/vue": "^1.1.0",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "astro": "^1.5.0",
+    "astro-seo": "jonasmerlin/astro-seo",
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "sharp": "^0.31.1",
+    "svelte": "^3.46.4",
+    "tailwindcss": "^3.0.24",
+    "vue": "^3.2.30"
+  }
+}

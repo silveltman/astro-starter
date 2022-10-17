@@ -1,0 +1,18 @@
+{
+  "logo": {
+    "image": "",
+    "alt": ""
+  },
+  "contact": {
+    "phone": "",
+    "email": "",
+    "address": ""
+  },
+  "social": {
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "googleAnalytics": ""
+}

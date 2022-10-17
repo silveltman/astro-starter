@@ -1,0 +1,27 @@
+---
+import { SEO } from 'astro-seo'
+import seoData from '@data/SEO.json'
+
+const { title, description } = Astro.props as Props
+
+let pageSeo = {
+  title: title || seoData.title,
+  description: description || seoData.description,
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    />
+
+    <SEO {...seoData} {...pageSeo} />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+
+  <slot />
+</html>
