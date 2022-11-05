@@ -1,5 +1,7 @@
 // https://astro.build/config
 import { defineConfig } from 'astro/config';
+
+// Astro integrations
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
@@ -17,5 +19,5 @@ export default defineConfig({
     image({
       serviceEntryPoint: '@astrojs/image/sharp'
     }),
-  ]
+  ],
 });

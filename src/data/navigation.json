@@ -1,0 +1,26 @@
+{
+    "links": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "About",
+            "url": "#"
+        },
+        {
+            "text": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "buttons": {
+        "buttonPrimary": {
+            "text": "Sign up",
+            "url": "#"
+        },
+        "buttonSecondary": {
+            "text": "Sign in",
+            "url": "#"
+        }
+    }
+}

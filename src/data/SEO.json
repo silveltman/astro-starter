@@ -13,7 +13,9 @@
       "description": "",
       "determiner": "",
       "locale": "",
-      "localeAlternate": [""],
+      "localeAlternate": [
+        ""
+      ],
       "siteName": "",
       "video": ""
     },
@@ -29,9 +31,13 @@
       "publishedTime": "",
       "modifiedTime": "",
       "expirationTime": "",
-      "authors": [""],
+      "authors": [
+        ""
+      ],
       "section": "",
-      "tags": [""]
+      "tags": [
+        ""
+      ]
     }
   },
   "twitter": {
