@@ -1,12 +1,12 @@
 ---
-import Head from "@components/head/Head.astro";
+import Head from "@components/head/Base.astro";
 const { seo } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="nl">
   <Head {seo} />
-  <body>
+  <body class="font-primary">
     <slot />
   </body>
 </html>

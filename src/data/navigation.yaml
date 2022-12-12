@@ -1,0 +1,13 @@
+links:
+  - text: Home
+    url: "/"
+  - text: About
+    url: "#"
+  - text: Contact
+    url: "/contact"
+CtaPrimary:
+  text: Sign up
+  url: "#"
+CtaSecondary:
+  text: Sign in
+  url: "#"

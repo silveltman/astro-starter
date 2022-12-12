@@ -1,8 +1,20 @@
 ---
 import Layout from "@layouts/Base.astro";
 const { seo } = Astro.props.frontmatter;
+
+import Button from "@components/library/Button.svelte";
+import IconButton from "@components/library/IconButton.svelte";
 ---
 
 <Layout {seo}>
-    <slot />
+    <div class="flex flex-col gap-4 p-10 items-start">
+        <Button href="#" variant="primary" startIcon="search">Click me</Button>
+        <Button href="#" variant="secondary" startIcon="search">Click me</Button
+        >
+        <Button href="#" variant="tertiary" startIcon="search">Click me</Button>
+
+        <IconButton variant="primary" name="search" />
+        <IconButton variant="secondary" name="search" />
+        <IconButton variant="tertiary" name="search" />
+    </div>
 </Layout>

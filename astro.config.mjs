@@ -8,6 +8,11 @@ import image from '@astrojs/image';
 import vue from "@astrojs/vue";
 import svelte from "@astrojs/svelte";
 
+// Third-party plugins
+import yaml from '@rollup/plugin-yaml';
+import { multicssclass } from 'svelte-multicssclass';
+
+
 export default defineConfig({
   // TODO: add site url for sitemap plugin to use
   // site: 'https://mywebsite.com',
@@ -20,4 +25,11 @@ export default defineConfig({
       serviceEntryPoint: '@astrojs/image/sharp'
     }),
   ],
+
+  vite: {
+    plugins: [
+      yaml(),
+      multicssclass()
+    ]
+  }
 });
