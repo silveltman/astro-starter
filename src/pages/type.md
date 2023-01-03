@@ -1,5 +1,5 @@
 ---
-layout: '@layouts/pages/Index.astro'
+layout: '@layouts/pages/Type.astro'
 seo:
     title: 
     description:

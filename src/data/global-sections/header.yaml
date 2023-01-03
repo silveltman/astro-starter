@@ -1,10 +1,19 @@
+logo: 
+
 links:
   - text: Home
     url: "/"
-  - text: About
+  - text: Products
     url: "#"
   - text: Contact
     url: "/contact"
+
+buttons:
+  cart:
+  account:
+  search: 
+
+
 CtaPrimary:
   text: Sign up
   url: "#"

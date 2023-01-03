@@ -26,7 +26,19 @@ module.exports = {
 				warning: '#FF9500',
 				error: '#FF3B30',
 				success: '#34C759',
-			}
+			},
+			spacing: {
+				DEFAULT: '1rem',
+				'xs': '0.25rem',
+				'sm': '0.5rem',
+				'base': '1rem',
+				'lg': '2rem',
+				'xl': '4rem',
+				'2xl': '6rem',
+			},
+			screens: {
+				'3xl': '1792px',
+			},
 		},
 	},
 	corePlugins: {
